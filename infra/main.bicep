@@ -4,7 +4,7 @@ param repositoryUrl string = 'https://github.com/rukasakurai/hello-world-aswa'
 param branch string = 'main'
 param sku string = 'Free'
 
-module staticWebApp 'br/public:avm/res/web/static-site:1.0.0' = {
+module staticWebApp 'br/public:avm/res/web/static-site:0.3.0' = {
   name: 'staticWebAppModule'
   params: {
     name: appName
@@ -15,4 +15,4 @@ module staticWebApp 'br/public:avm/res/web/static-site:1.0.0' = {
   }
 }
 
-output staticWebAppUrl string = staticWebApp.outputs.defaultHostnames
+output staticWebAppUrl string = staticWebApp.outputs.defaultHostname

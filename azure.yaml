@@ -1,0 +1,8 @@
+name: name-in-azure-yaml-but-not-sure-what-this-is-for
+services:
+  web:
+    host: staticwebapp
+    project: ./src
+    resourceName: hello-world-static-web-app
+    language: js # Seems to be required even for plain html without JavaScript as of 2024-10-01
+# Reference: https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/azd-schema

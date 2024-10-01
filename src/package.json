@@ -1,0 +1,10 @@
+{
+    "name": "my-static-webapp",
+    "version": "1.0.0",
+    "description": "Static Web App",
+    "main": "index.html",
+    "scripts": {},
+    "dependencies": {},
+    "devDependencies": {}
+  }
+  
